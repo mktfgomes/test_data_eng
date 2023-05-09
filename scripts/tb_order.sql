@@ -6,7 +6,7 @@ CREATE TABLE tb_order (
   cod_client integer NULL,
   dat_order date,
   num_quantity integer NULL,
-  num_value_order varchar(100) default NULL
+  num_value_order decimal(18,2) default NULL
 );
 
 
